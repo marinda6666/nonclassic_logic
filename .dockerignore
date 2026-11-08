@@ -1,0 +1,15 @@
+*
+!Dockerfile
+!requirements.txt
+!requirements-test.txt
+!backend/
+!backend/**
+!index.html
+!styles.css
+!app.js
+!tests/
+!tests/test_backend.py
+!docs/
+!docs/**
+!examples/
+!examples/**

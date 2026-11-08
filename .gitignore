@@ -1,0 +1,33 @@
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.idea/
+.vscode/
+
+# Authoring, browser QA and generated submission archives
+tmp/
+tests/downloads/
+tests/pdf-preview/
+tests/design-preview/
+tests/tmp-*
+*.zip
+~$*
+
+# Repository publishes source code only; reports and generated experiments stay local.
+*.docx
+*.pdf
+docs/*
+!docs/README.md
+examples/*.json
+examples/*.log
+tests/VERIFICATION.md
+tests/pdf-qa.cjs
+tests/render-report.cjs
